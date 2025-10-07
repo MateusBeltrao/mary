@@ -1,5 +1,5 @@
 import { Circle, Heart, Award } from "lucide-react";
-import hero from '../assets/hero.png';
+import hero from '../assets/salao.jpg';
 
 const Hero = () => {
   return (
@@ -12,9 +12,9 @@ const Hero = () => {
         className="text-4xl sm:text-5xl text-gray-900 text-center 
         lg:text-left"
         data-aos='fade-right' >
-            Professionals{" "}
+            Atendimento{" "}
             <span className="font-bold text-black block lg:inline">
-                Service<span className='text-green-500'>.</span>
+                Profissional<span className='text-green-500'>.</span>
             </span>
         </h2>
         <div 
@@ -38,10 +38,10 @@ const Hero = () => {
                         <Heart className="text-pink-600 w-6 h-6" /></span>
                     </div>
                     <h3 className="ml-4 text-lg font-semibold text-gray-800">
-                        Service Subtitle One
+                        Amor pelo que fazemos
                     </h3>
                     <p className="ml-4 text-gray-500 text-sm mt-2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        Cuidamos de cada detalhe com dedicação e carinho.
                     </p>
                 </div>
                 <div 
@@ -55,10 +55,10 @@ const Hero = () => {
                         <Award className="text-yellow-600 w-6 h-6" /></span>
                     </div>
                     <h3 className="ml-4 text-lg font-semibold text-gray-800">
-                    Service Subtitle Two
+                    Excelência em Tudo
                     </h3>
                     <p className="ml-4 text-gray-500 text-sm mt-2">
-                    Lorem ipsum dolor sit amet, consectetur.
+                    Entregamos sempre o melhor em cada serviço.
                     </p>
                 </div>
             </div>
