@@ -18,17 +18,17 @@ const Footer = () => {
     ];
     const services = [
         {label:"UI/UX Design", href: "#"},
-        {label:"Web Development", href: "#"},
-        {label:"Photography", href: "#"},
-        {label:"Branding", href: "#"},
-        {label:"Digital Marketing", href: "#"},
+        {label:"Desenvolvimento Web", href: "#"},
+        {label:"Fotografia", href: "#"},
+        {label:"Marca", href: "#"},
+        {label:"Marketing Digital", href: "#"},
     ];
     const contactInfo = [
-        {icon: Phone, text:'+123 456 7890', color: 'text-pink-500'},
-        {icon: Mail, text:'info@proservice.com', color: 'text-yellow-500'},
+        {icon: Phone, text:'(91) 98226-5217', color: 'text-pink-500'},
+        {icon: Mail, text:'mateusbeltrao2019@gmail.com', color: 'text-yellow-500'},
         {
             icon: MapPin,
-            text: "123 Lorem ipsum dolor sit amet  adipisicing elit.",
+            text: "Endereço belém do pará.",
             color: "text-green-500",
             multiline: true
         }
@@ -50,17 +50,16 @@ const Footer = () => {
                     <div className='w-10 h-10 flex items-center
                     justify-center rounded-full border-4
                     border-pink-600 text-pink-600 mr-2'>
-                        P 
+                        M
                     </div>
                     <span>
-                        ro<span className='text-yellow-500'>
-                            Service</span>
+                        Mary<span className='text-yellow-500'>
+                            Studio</span>
                     </span>
                 </div>
                 <p className='text-gray-300 leading-relaxed'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing 
-                    elit. Ex, sequi officiis commodi ducimus ipsum est
-                     doloribus quia, corrupti exercitationem nemo 
+                    A Mary Studio é uma agência criativa especializada em design, desenvolvimento web e fotografia.
+Transformamos ideias em experiências digitais únicas.
                 </p>
                 <div className='flex gap-4'>
                     {socialLinks.map((social, idx) => (
@@ -95,7 +94,7 @@ const Footer = () => {
                 <h3 className='text-xl font-semibold border-b-2
                  border-yellow-600
                 pb-2 inline-block'>
-                    Our Services
+                    Nossos Serviços
                 </h3>
                 <ul className='space-y-3'>
                     {services.map((service, index) => (
@@ -113,7 +112,7 @@ const Footer = () => {
               <div className='space-y-6'>
                 <h3 className='text-xl font-semibold border-b-2
                  border-green-600 pb-2 inline-block'>
-                    Contact Info
+                    Informações de contato
                 </h3>
                 <div className='space-y-4'>
                     {contactInfo.map((contact, idx) => (
@@ -144,7 +143,8 @@ const Footer = () => {
         <div className='border-t border-gray-700 pt-8 text-center'>
             <p className='text-gray-400 flex items-center
             justify-center gap-1'> 
-            @ 2024 Lorem ipsum dolor sit amet 
+             © 2025 Mary Studio. Todos os direitos reservados.
+Desenvolvido com ❤️ criatividade e café ☕.
             <Heart className='w-4 h-4 text-pink-500 fill-current'/>
             </p>
         </div>

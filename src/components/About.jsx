@@ -37,9 +37,9 @@ const About = () => {
             <div className='mb-6 md:mb-8' data-aos='fade-left'>
                 <h2 className='text-3xl sm:text-4xl md:text-5xl 
                 text-gray-900 text-center lg:text-left'>
-                    Agency {" "}
+                    Visão geral {" "}
             <span className='font-bold text-black block lg:inline'>
-                Overview<span className='text-green-500'>.</span>
+                da agência<span className='text-green-500'>.</span>
             </span>
                 </h2> 
             
@@ -54,10 +54,8 @@ const About = () => {
         data-aos='fade-left'
         data-aos-delat='100'
         >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quo repellendus ullam repellat tenetur porro nostrum. Esse 
-            repellendus ex cum, consectetur quo ipsam recusandae ea 
-            impedit assumenda, nesciunt commodi nihil voluptatibus.
+          Na Mary Studio, unimos tecnologia, design e arte para criar experiências digitais únicas.
+          Com uma equipe criativa e apaixonada, transformamos ideias em projetos modernos e funcionais.
         </p>
         <div 
         className='grid grid-cols-1 sm:grid-cols-2 gap-4
@@ -74,10 +72,10 @@ const About = () => {
           </div>
           <h3 className='text-base md:text-lg font-semibold text-gray-800
           mb-2'>
-            Expert Team 
+            Equipe de especialistas
           </h3>
           <p className='text-gray-600 text-xs md:text-sm'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Profissionais experientes em programação, design e fotografia. 
           </p>
          </div>
          <div className='bg-white p-4 md:p-6 rounded-xl md:rounded-2xl
@@ -89,10 +87,10 @@ const About = () => {
           </div>
           <h3 className='text-base md:text-lg font-semibold text-gray-800
           mb-2'>
-            Our Mission 
+            Nossa Missão
           </h3>
           <p className='text-gray-600 text-xs md:text-sm'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Levar inovação visual e digital a cada cliente, com propósito e qualidade. 
           </p>
          </div>
         </div>
@@ -106,7 +104,7 @@ const About = () => {
             text-white rounded-full font-medium hover:bg-pink-600
             transition-all shadow-md hover:shadow-lg flex items-center
             gap-2 text-sm md:text-base'>
-                Learn more About Us
+                Saiba mais sobre nós
                 <ArrowRight className='h-4 w-4 md:h-5 md:w-5'/>
             </button>
         </div>

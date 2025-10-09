@@ -12,8 +12,8 @@ const WhyOurCompany = () => {
             className='text-center mb-6 md:mb-8' 
             data-aos='fade-down'>
                 <h2 className='text-3xl sm:text-4xl md:text-5xl 
-                text-gray-900'>
-                Why Our <span className='text-black font-bold'>Comapny
+                text-gray-900'> 
+                Por que escolher <span className='text-black font-bold'>nossa agência
                 </span>
                     <span className='text-green-500'> ?</span>
                 </h2>
@@ -48,11 +48,9 @@ const WhyOurCompany = () => {
                     </div>
         <div>
           <h3 className='text-lg sm:text-xl font-semibold text-gray-900 
-          mb-2'>Excellence Guaranteed</h3>
+          mb-2'>Excelência Garantida</h3>
         <p className='text-gray-600 text-sm sm:text-base'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Sint ratione porro labore facere, explicabo ipsam illo 
-            deleniti
+            Buscamos sempre o mais alto padrão em cada projeto que desenvolvemos.
         </p>
         </div>
     </div>
@@ -68,11 +66,9 @@ const WhyOurCompany = () => {
             </div>
         <div>
           <h3 className='text-lg sm:text-xl font-semibold text-gray-900 
-          mb-2'>Trust & Reliability</h3>
+          mb-2'>Confiança e Credibilidade</h3>
         <p className='text-gray-600 text-sm sm:text-base'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Sint ratione porro labore facere, explicabo ipsam illo 
-            deleniti
+            Entregas pontuais, comunicação clara e resultados de verdade.
         </p>
         </div>
     </div>
@@ -88,11 +84,9 @@ const WhyOurCompany = () => {
             </div>
         <div>
           <h3 className='text-lg sm:text-xl font-semibold text-gray-900 
-          mb-2'>Innovation Driven</h3>
+          mb-2'>Foco em Inovação</h3>
         <p className='text-gray-600 text-sm sm:text-base'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Sint ratione porro labore facere, explicabo ipsam illo 
-            deleniti
+            Aplicamos tendências modernas em tecnologia e design para destacar sua marca.
         </p>
         </div>
     </div>
@@ -111,11 +105,10 @@ const WhyOurCompany = () => {
                     <Star className='w-8 h-8 sm:w-10 sm:h-10'/>
                   </div>
                 <h3 className='text-xl sm:text-2xl font-bold mb-3 sm:mb-4'>
-                98% Customer Satisfaction
+               98% de clientes satisfeitos
                   </h3>
                   <p className='mb-4 sm:text-base'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing 
-                    elit. Pariatur quaerat perferendis optio expedita
+                    Nosso compromisso é superar expectativas e gerar resultados reais.
                   </p>
                   <div className='flex justify-center gap-3 sm:gap-4'>
                     <div 
@@ -123,21 +116,21 @@ const WhyOurCompany = () => {
                     data-aos='fade-up'
                     data-aos-delay='400'>
          <div className='text-2xl sm:text-3xl font-bold'>500+</div>
-         <div className='text-xs sm:text-sm'>Projects Completed</div>
+         <div className='text-xs sm:text-sm'>Projetos concluídos</div>
                     </div>
                      <div 
                     className='text-center'
                     data-aos='fade-up'
                     data-aos-delay='400'>
          <div className='text-2xl sm:text-3xl font-bold'>10+</div>
-         <div className='text-xs sm:text-sm'>Years Experience</div>
+         <div className='text-xs sm:text-sm'>Anos de experiência</div>
                     </div>
                      <div 
                     className='text-center'
                     data-aos='fade-up'
                     data-aos-delay='400'>
          <div className='text-2xl sm:text-3xl font-bold'>99%</div>
-         <div className='text-xs sm:text-sm'>Success Rate</div>
+         <div className='text-xs sm:text-sm'>Taxa de sucesso</div>
                     </div>
                   </div>
                 </div>

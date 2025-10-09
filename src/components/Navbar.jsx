@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
                 <span>
                     Mary <span className="text-yellow-500">
-                        lente
+                        Studio
                     </span>
                 </span>
             </div>

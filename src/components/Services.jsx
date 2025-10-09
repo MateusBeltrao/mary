@@ -11,8 +11,8 @@ const Services = () => {
             id: 1,
             icon: <Brush className='w-5 h-5 sm:w-6 sm:h-6'/>,
             title: "UI/UX Design",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloribus illo molestiae eveniet esse. Temporibus, fugit ",
-            features: ["User Research", "Wireframing", "Prototyping", "UI Design"],
+            desc: "Transformamos ideias em interfaces criativas e funcionais, focadas em usabilidade e experiência do usuário. Cada detalhe é pensado para encantar e facilitar. ",
+            features: ["Pesquisa de Usuário", "Protótipos Interativos", "Wireframes", "Design de Interface (UI)"],
             color: "bg-pink-400",
             butColor: "bg-pink-400 hover:bg-pink-500",
             iconColor: "text-pink-100",
@@ -21,9 +21,9 @@ const Services = () => {
         {
             id: 2,
             icon: <Code className='w-5 h-5 sm:w-6 sm:h-6'/>,
-            title: "Web Development",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloribus illo molestiae eveniet esse. Temporibus, fugit ",
-            features: ["User Research", "Wireframing", "Prototyping", "UI Design"],
+            title: "Desenvolvimento Web",
+            desc: "Criamos sites modernos, rápidos e responsivos, com foco em performance e identidade visual. Do design ao código, tudo é feito com cuidado e propósito. ",
+            features: ["Estrutura Personalizada", "Otimização e SEO", "Integração de Recursos", "Suporte e Manutenção"],
             color: "bg-yellow-400",
             butColor: "bg-yellow-400 hover:bg-yellow-500",
             iconColor: "text-yellow-100",
@@ -32,9 +32,9 @@ const Services = () => {
         {
             id: 3,
             icon: <Camera className='w-5 h-5 sm:w-6 sm:h-6'/>,
-            title: "Photography",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloribus illo molestiae eveniet esse. Temporibus, fugit ",
-            features: ["User Research", "Wireframing", "Prototyping", "UI Design"],
+            title: "Fotografia",
+            desc: "Capturamos momentos e detalhes que contam histórias. Trabalhamos com estilo, iluminação e sensibilidade para destacar o melhor da sua marca. ",
+            features: ["Ensaios Profissionais", "Fotografia de Produto", "Edição e Tratamento de Imagem", "Direção Criativa"],
             color: "bg-green-400",
             butColor: "bg-green-400 hover:bg-green-500",
             iconColor: "text-green-100",
@@ -55,9 +55,9 @@ const Services = () => {
                     <div>
                         <h2 className='text-3xl sm:text-4xl md:text-5xl
                         text-gray-900'>
-                            Our{" "}
+                            Nossos{" "}
                             <span className='font-bold text-black'>
-                                Services
+                                Serviços
                                 <span className='text-green-500'>.</span>
                             </span>
                         </h2>
@@ -148,7 +148,7 @@ const Services = () => {
                   text-white rounded-full
                  font-medium transition-all shadow-md hover:shadow-lg 
                  flex items-center gap-2 text-sm sm:text-base`}>
-                        Get This Service
+                        Solicitar este serviço
                     <ArrowRight className='h-4 w-4 sm:h-5 sm:w-5'/>
                     </button>
                 </div>

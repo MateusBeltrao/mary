@@ -1,5 +1,5 @@
 import { Circle, Heart, Award } from "lucide-react";
-import hero from '../assets/salao.jpg';
+import hero from '../assets/hero.png';
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         className="text-4xl sm:text-5xl text-gray-900 text-center 
         lg:text-left"
         data-aos='fade-right' >
-            Atendimento{" "}
+            agência{" "}
             <span className="font-bold text-black block lg:inline">
                 Profissional<span className='text-green-500'>.</span>
             </span>

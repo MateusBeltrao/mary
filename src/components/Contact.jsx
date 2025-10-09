@@ -9,7 +9,7 @@ const Contact = () => {
         iconBg: 'bg-pink-100',
         iconColor: 'text-pink-600',
         title: 'Email',
-        content: 'info@exapmle.com',
+        content: 'mateusbeltrao2019@gmai.com',
         aosDelay: '200'
     },
     {
@@ -18,7 +18,7 @@ const Contact = () => {
         iconBg: 'bg-yellow-100',
         iconColor: 'text-yellow-600',
         title: 'Phone',
-        content: '+123 456 7890',
+        content: '(91) 98226-5217',
         aosDelay: '250'
     },
      {
@@ -26,8 +26,8 @@ const Contact = () => {
         icon: MapPinIcon,
         iconBg: 'bg-green-100',
         iconColor: 'text-green-600',
-        title: 'Adress',
-        content: '123 Main Street, City, Country',
+        title: 'Endereço',
+        content: 'Belém do pará',
         aosDelay: '300'
     }
 ];
@@ -36,22 +36,22 @@ const Contact = () => {
         {
             id: 'name',
             type: 'text',
-            label: 'Full name',
-            placeholder: 'Enter your full name',
+            label: 'Nome completo',
+            placeholder: 'Digite seu nome complento',
             delay: '150'
         },
          {
             id: 'email',
             type: 'email',
-            label: 'Email Adress',
-            placeholder: 'Enter your email adress',
+            label: 'Endereço de e-mail',
+            placeholder: 'Digite seu Email',
             delay: '200'
         },
          {
             id: 'message',
             type: 'textarea',
-            label: 'Message',
-            placeholder: 'Enter your message here ...',
+            label: 'Message',  
+            placeholder: 'Digite sua mensagem ...',
             rows: 5,
             delay: '250'
         },
@@ -68,9 +68,9 @@ const Contact = () => {
                     <div>
                         <h2 className='text-3xl sm:text-4xl 
                         md:text-5xl text-gray-900'>
-                            Get In {""}
+                            Entre em  {""}
                             <span className='font-bold text-black'>
-                                Touch
+                                contato
                                 <span className='text-green-500'>.</span>
                             </span>
                         </h2>
@@ -134,7 +134,7 @@ const Contact = () => {
                             hover:bg-pink-600 transition-all
                             shadow-md hover:shadow-lg flex items-center
                             justify-center gap-2'>
-                                Send Message 
+                                Enviar mensgem
                                 <Send className='h-5 w-5'/>
                             </button>
                         </div>
